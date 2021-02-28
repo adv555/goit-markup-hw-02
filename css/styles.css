@@ -10,6 +10,7 @@
   --accent-color: #2196f3;
   --body-bg-light: #e5e5e5;
   --body-bg-dark: #2f303a;
+  --body-bg-accent: #f5f4fa;
 }
 
 body {
@@ -50,6 +51,9 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.title-hidden {
+  display: none;
 }
 /* ======= END COMPONENTS ======= */
 
@@ -123,7 +127,7 @@ body {
 
 /* ======= OUR TEAM ======= */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--body-bg-accent);
 }
 .team-card {
   font-size: 16px;
@@ -171,6 +175,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--body-bg-accent);
   cursor: pointer;
 }
 .filter-button:hover,
